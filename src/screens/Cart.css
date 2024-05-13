@@ -1,0 +1,168 @@
+.Cart {
+  width: 80vw;
+  margin: 40px auto;
+}
+
+.Cart > main {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.c-products {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  gap: 50px;
+  margin-top: 60px;
+  width: 100%;
+}
+.cp {
+  display: flex;
+  align-items: center;
+}
+.cp-prod {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  box-shadow: 0 4px 30px rgba(204, 204, 204, 0.17);
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+}
+.cp-prod div:first-of-type {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.cp-prod img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(204, 204, 204, 0.355);
+}
+.cp-prod main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.cp-prod main section {
+  border: 1px solid rgb(0, 128, 255);
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+.cp-prod main section span {
+  color: #0178ff;
+  cursor: pointer;
+}
+.cp-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end !important;
+  justify-content: flex-end;
+  gap: 0 !important;
+}
+.cp-prod span {
+  color: lightgray;
+}
+.cp-prod h5 {
+  font-size: large;
+}
+.cp > img {
+  margin: 10px;
+  padding: 10px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(208, 239, 255, 0.677);
+  cursor: pointer;
+  background: linear-gradient(120deg, white, rgb(237, 250, 255));
+}
+
+.c-content {
+  width: 80vw;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.c-content > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 200px;
+}
+.c-content span {
+  color: lightgray;
+}
+
+.c-tp {
+  gap: 20px;
+  text-align: center;
+}
+.c-tp h1 {
+  background: linear-gradient(120deg, #4bd2ff, #004f90);
+  background-clip: text;
+  color: transparent;
+}
+
+.c-empty {
+  width: 100%;
+  height: 60vh;
+  display: grid;
+  place-content: center;
+}
+.c-empty span {
+  color: rgb(150, 211, 255);
+  font-weight: bold;
+}
+
+.c-add {
+  position: relative;
+}
+.c-add > span {
+  rotate: -90deg;
+  position: absolute;
+  left: -90px;
+  top: 100px;
+  width: 150px;
+  height: 20px;
+}
+.c-add div {
+  box-shadow: 0 4px 20px rgba(225, 225, 225, 0.379);
+  border-radius: 30px;
+  padding: 20px;
+  min-width: 200px;
+  min-height: 200px;
+}
+.c-add h4 {
+  display: grid;
+  place-content: center;
+  width: 200px;
+  height: 200px;
+}
+.c-add a {
+  text-decoration: underline;
+}
+
+.c-btns {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.c-btns button {
+  height: 60px;
+}
+.c-btns button:last-of-type {
+  width: 200px;
+  background: #00244c;
+  box-shadow: 0 4px 30px #00234c59;
+}

@@ -1,38 +1,64 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins-Regular.ttf");
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: #00aaff;
+}
+
+::-webkit-scrollbar:horizontal {
+  display: none;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  width: 100vw;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: rgb(251, 254, 255);
+  font-family: "Poppins";
+}
+
+input {
+  width: 270px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 4px 20px rgba(0, 29, 69, 0.09);
+  text-indent: 10px;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: lightgray;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(120deg, rgb(0, 174, 255), rgb(0, 149, 255));
   color: white;
+  font-weight: bold;
+  box-shadow: 0 4px 40px rgba(82, 154, 255, 0.563);
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
+  color: black;
 }

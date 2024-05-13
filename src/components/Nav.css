@@ -1,0 +1,28 @@
+.Nav {
+  width: calc(100vw - 50px);
+  margin: auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.n-cart {
+  display: flex;
+  align-items: start;
+  justify-content: flex-end;
+}
+
+.n-cart > span {
+  background-color: #19abff;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  font-size: small;
+  display: grid;
+  place-content: center;
+  margin-left: -15px;
+  margin-top: -5px;
+}

@@ -1,0 +1,38 @@
+.Home {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.h-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  font-weight: bold;
+}
+
+.hp-prod {
+  width: 150px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(211, 211, 211, 0.352);
+  font-size: small;
+}
+
+.hp-prod img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(211, 211, 211, 0.352);
+  border-radius: 20px;
+}
+
+.hp-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.hp-cont span {
+  color: lightgray;
+}

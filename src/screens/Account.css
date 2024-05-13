@@ -1,0 +1,154 @@
+.Account {
+  width: 80vw;
+  min-height: calc(100vh - 80px);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Account > img:first-of-type {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: 0 4px 60px rgba(107, 184, 255, 0.577);
+  border-radius: 50%;
+  background-color: rgb(208, 230, 255);
+  margin-bottom: 30px;
+}
+
+.Account > h1 {
+  background: linear-gradient(120deg, #4bd2ff, #004f90);
+  background-clip: text;
+  color: transparent;
+}
+.Account > span {
+  color: lightgray;
+  margin-top: -5px;
+}
+.Account > div {
+  margin: 10px;
+  background-color: #d6edff;
+  padding: 7px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.Account > p {
+  width: 1px;
+  height: 100px;
+  background: linear-gradient(120deg, transparent, #4bd2ff, #004f90);
+  margin-bottom: -5px;
+}
+.Account > img:last-of-type {
+  background: linear-gradient(120deg, #00bffe, #0178ff);
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: 0 4px 40px rgba(0, 128, 255, 0.355);
+  cursor: pointer;
+}
+
+.a-orders {
+  width: 80vw;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.a-orders main {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  box-shadow: 0 4px 20px rgba(128, 128, 128, 0.107);
+  border-radius: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+.a-orders main div {
+  display: flex;
+  flex-direction: column;
+}
+.a-orders img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(128, 128, 128, 0.107);
+  border-radius: 20px;
+}
+.a-orders main div h6 {
+  background-color: #d2ebff;
+  width: max-content;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.a-edit {
+  width: 100vw;
+  position: fixed;
+  background-color: #f1f9ff40;
+  backdrop-filter: blur(10px);
+  top: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  padding: 50px auto;
+}
+
+.a-edit main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: #f9fcff;
+  width: max-content;
+  padding: 50px;
+  margin: 50px auto;
+  box-shadow: 0 4px 20px rgba(128, 128, 128, 0.107);
+  border-radius: 30px;
+  position: relative;
+}
+
+.a-edit main > img {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.ae-img {
+  display: grid;
+  place-content: center;
+  position: relative;
+  margin: 40px;
+}
+.ae-img > img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  box-shadow: 0 4px 60px rgba(155, 218, 255, 0.356);
+  background: linear-gradient(120deg, #f6fbff, #ffffff);
+  object-fit: cover;
+}
+.ae-img div {
+  position: absolute;
+  display: grid;
+  place-content: center;
+  top: 0px;
+  right: 00px;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(130, 209, 255, 0.625);
+  cursor: pointer;
+  background: linear-gradient(120deg, #01afff, #006dd3);
+}
+.ae-img div img {
+  width: 20px;
+}
+.ae-img div input {
+  position: absolute;
+  width: 30px;
+  opacity: 0;
+}
